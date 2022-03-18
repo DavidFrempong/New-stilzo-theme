@@ -43,11 +43,11 @@ body.dark::-webkit-scrollbar-thumb {
 }
 
 body.dark .logo{
-	color:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
 }
 
 body.dark .stilzo_tm_mobile_menu .mobile_in .logo span{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 
 body.dark h3{
@@ -55,15 +55,15 @@ body.dark h3{
 }
 
 body.dark .stilzo_tm_topbar{
-   -webkit-box-shadow: 0px 1px 7px 5px rgba(54, 54, 54, 0.25); 
-   box-shadow: 0px 1px 7px 5px rgba(54, 54, 54, 0.25);
-   background-color: rgb(255, 255, 255);
+   -webkit-box-shadow: 0px 1px 7px 5px rgba(29, 29, 29, 0.25); 
+   box-shadow: 0px 1px 7px 5px rgba(29, 29, 29, 0.25);
+   background-color: rgb(0, 0, 0);
 }
 body.dark .stilzo_tm_topbar.animate .wrapper{
-	background-color: #ffffff;
+	background-color: #00041a;
 }
 body.dark .stilzo_tm_mobile_menu .mobile_menu_inner{
-	background-color: #ffffff;
+	background-color: #000000;
 }
 body.dark .stilzo_tm_mobile_menu .dropdown{
 	background-color: #000000;
@@ -77,15 +77,15 @@ body.dark .stilzo_tm_hero{
 body.dark .hamburger-inner, 
 body.dark .hamburger-inner:after, 
 body.dark .hamburger-inner:before{
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 }
 body.dark .hamburger.is-active .hamburger-inner, 
 body.dark .hamburger.is-active .hamburger-inner:after, 
 body.dark .hamburger.is-active .hamburger-inner:before{
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
 }
 body.dark .stilzo_tm_topbar .list ul li a{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 body.dark .stilzo_tm_hero .services ul li a{
   color: rgb(0, 0, 0);

@@ -957,7 +957,7 @@ body.opened .stilzo_tm_hero .down{
 	padding-top: 92px;
 }
 .stilzo_tm_portfolio .portfolio_list .list_inner{
-	width: 90%;
+	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
@@ -2056,7 +2056,7 @@ padding-bottom: 0;
 	.stilzo_tm_modalbox .additional_images ul{margin: 0px;}
 	.stilzo_tm_modalbox .additional_images ul li{width: 100%;padding-left: 0px;}
 }
-@media (max-width: 1040px) {
+@media (max-width: 810px) {
 	.mouse-cursor{display: none;}
 	.stilzo_tm_topbar{display: none;}
 	.stilzo_tm_mobile_menu{display: block;}
