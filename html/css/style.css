@@ -282,8 +282,8 @@ h6 { font-size: 16px; }
 	    -ms-transition: all .4s ease;
 	     -o-transition: all .4s ease;
 	        transition: all .4s ease;
-			-webkit-box-shadow: 0px 1px 7px 5px rgba(223,223,223,0.71); 
-			box-shadow: 0px 1px 7px 5px rgba(223,223,223,0.71);
+			-webkit-box-shadow: 0px 1px 7px 5px rgba(54, 54, 54, 0.25); 
+			box-shadow: 0px 1px 7px 5px rgba(54, 54, 54, 0.25);
 			background-color: rgb(14, 8, 71);
 }
 body.opened .stilzo_tm_topbar{
@@ -411,8 +411,8 @@ body.opened .stilzo_tm_topbar{
 	left: 0px;
 	display: none;
 	z-index: 10;
-	-webkit-box-shadow: 0px 1px 7px 5px rgba(223,223,223,0.71); 
-box-shadow: 0px 1px 7px 5px rgba(223,223,223,0.71);
+	-webkit-box-shadow: 0px 1px 7px 5px rgba(54, 54, 54, 0.25); 
+box-shadow: 0px 1px 7px 5px rgba(54, 54, 54, 0.25);
 }
 .stilzo_tm_mobile_menu .mobile_menu_inner{
 	width: 100%;
@@ -445,7 +445,7 @@ box-shadow: 0px 1px 7px 5px rgba(223,223,223,0.71);
 	height: 100vh;
 	clear: both;
 	float: left;
-	background-color: rgb(17, 17, 17);
+	background-color: rgb(1, 1, 20);
 	display: none;
 }
 .hamburger.is-active .hamburger-inner{
@@ -1324,7 +1324,11 @@ body.opened .stilzo_tm_hero .down{
 }
 
 .skill{
-	margin-bottom: 30px;
+	margin-bottom: 35px;
+}
+
+.stilzo_tm_main_title.light.skills h3{
+padding-bottom: 0;
 }
 
 .stilzo_tm_main_title.light h3{
@@ -1772,7 +1776,7 @@ body.opened .stilzo_tm_hero .down{
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: rgb(215, 226, 248);
+	background-color: rgb(236, 243, 255);
 	padding: 140px 0px 119px 0px;
 }
 .stilzo_tm_contact .contact_inner{
