@@ -66,10 +66,10 @@ body.dark .stilzo_tm_mobile_menu .mobile_menu_inner{
 	background-color: #ffffff;
 }
 body.dark .stilzo_tm_mobile_menu .dropdown{
-	background-color: #303134;
+	background-color: #000000;
 }
 body.dark .stilzo_tm_mobile_menu .dropdown .dropdown_inner ul li a{
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 body.dark .stilzo_tm_hero{
 	background-color: #030303;

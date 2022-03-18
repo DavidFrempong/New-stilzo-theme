@@ -51,24 +51,30 @@ img.svg{
 }
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #6f6f6f;
+	font-weight: 400;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color: #6f6f6f;
+   font-weight: 400;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color: #6f6f6f;
+   font-weight: 400;
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color: #6f6f6f;
+   font-weight: 400;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
    color: #6f6f6f;
+   font-weight: 400;
 }
 
 ::placeholder { /* Most modern browsers support this now. */
    color: #6f6f6f;
+   font-weight: 400;
 }
 
 body::-webkit-scrollbar {
@@ -101,7 +107,7 @@ body::-webkit-scrollbar-thumb {
 h1, h2, h3, h4, h5, h6{
 	font-weight:500;
 	line-height: 1.2;
-	font-family: "Poppins";
+	font-family: 'Montserrat', sans-serif;
 	color: #000;
 }
 
@@ -544,8 +550,8 @@ body.opened .stilzo_tm_hero .content .left{
 }
 .stilzo_tm_hero .job{
 	font-size: 45px;
-	font-weight: 800;
-	line-height: 1.4;
+	font-weight: 700;
+	line-height: 1.2;
 	margin-bottom: 25px;
 }
 .stilzo_tm_hero .services{
@@ -863,9 +869,11 @@ body.opened .stilzo_tm_hero .content .right .image .shape{
 @keyframes right-image-shape{
 	from{
 		transform: rotate(-26deg);
+		transform: translate3d(-200px, 0,0);
 	}
 	to{
 		transform: rotate(-2deg);
+		transform: translate3d(0, 0,0);
 	}
 	}
 .stilzo_tm_hero .down{
@@ -949,7 +957,7 @@ body.opened .stilzo_tm_hero .down{
 	padding-top: 92px;
 }
 .stilzo_tm_portfolio .portfolio_list .list_inner{
-	width: 100%;
+	width: 90%;
 	height: auto;
 	clear: both;
 	float: left;
@@ -1825,7 +1833,7 @@ padding-bottom: 0;
     height: 18px;
     top: 50%;
 	margin-top: -1px;
-    color: #ff4522;
+    color: #4b49c7;
 	margin-right: 10px;
 }
 .stilzo_tm_contact .short ul li .list_inner span{
