@@ -978,7 +978,8 @@ body.opened .stilzo_tm_hero .down{
 .stilzo_tm_portfolio .portfolio_list .image img{
 	position: relative;
 	min-width: 100%;
-	opacity: 0;
+	border-radius: 12px;
+	/* opacity: 0; */
 }
 .stilzo_tm_portfolio .portfolio_list .image .main{
 	position: absolute;
@@ -1178,7 +1179,7 @@ body.opened .stilzo_tm_hero .down{
 .stilzo_tm_modalbox .popup_details .top_image img{
 	position: relative;
 	min-width: 100%;
-	opacity: 0;
+	/* opacity: 0; */
 }
 .stilzo_tm_modalbox .popup_details .top_image .main{
 	position: absolute;
