@@ -838,7 +838,7 @@ body.opened .stilzo_tm_hero .content .right{
 body.opened .stilzo_tm_hero .content .right .image .main{
 	animation-name: right-image-main;
 	animation-duration: 1s;
-	transform: rotate(5deg);
+	transform: rotate(0deg);
 }
 
 @keyframes right-image-main{
@@ -846,15 +846,15 @@ from{
 	transform: rotate(30deg);
 }
 to{
-	transform: rotate(5deg);
+	transform: rotate(0deg);
 }
 }
 
 .stilzo_tm_hero .content .right .image .shape{
 	position: absolute;
-	top: 23px;
+	top: 45px;
 	bottom: -23px;
-	left: -95px;
+	left: -85px;
 	width: 90%;
 	background-color: #ff4522;
 	transform: rotate(0deg);
@@ -870,7 +870,7 @@ to{
 body.opened .stilzo_tm_hero .content .right .image .shape{
 	animation-name: right-image-shape;
 	animation-duration: 1s;
-	transform: rotate(-2deg);
+	transform: rotate(0deg);
 } 
 
 @keyframes right-image-shape{
@@ -879,7 +879,7 @@ body.opened .stilzo_tm_hero .content .right .image .shape{
 		transform: translate3d(-200px, 0,0);
 	}
 	to{
-		transform: rotate(-2deg);
+		transform: rotate(0deg);
 		transform: translate3d(0, 0,0);
 	}
 	}
@@ -971,6 +971,7 @@ body.opened .stilzo_tm_hero .down{
 }
 .stilzo_tm_portfolio .portfolio_list .image{
 	position: relative;
+	width: 450px;
 }
 .stilzo_tm_portfolio .portfolio_list .image img{
 	position: relative;
