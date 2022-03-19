@@ -382,10 +382,10 @@ body.opened .stilzo_tm_topbar{
 }
 
 .contact_button{
-	background-color: rgb(61, 47, 255);
+	/* background-color: rgb(61, 47, 255); */
 	padding: 7px 20px;
 	border-radius: 10px;
-	color:rgb(255, 255, 255);
+	border: 2px solid rgb(61, 47, 255);
 }
 
 .contact_button a{
@@ -546,7 +546,8 @@ body.opened .stilzo_tm_hero .content .left{
 	margin-bottom: 16px;
 	color: #ff4522;
 	font-family: "Poppins";
-	font-weight: 500;
+	font-weight: 700;
+	font-size: 17px;
 }
 .stilzo_tm_hero .job{
 	font-size: 45px;
@@ -747,6 +748,10 @@ body.opened .stilzo_tm_hero .content .left{
   border-radius: 6px;
   border: 3px solid #fff;
 }
+
+.about_me{
+	margin-bottom: 25px;
+} 
 .stilzo_tm_hero .short_info{
 	width: 100%;
 	height: auto;
@@ -771,6 +776,7 @@ body.opened .stilzo_tm_hero .content .left{
 .stilzo_tm_hero .short_info ul li h3{
 	font-size: 45px;
 	font-weight: 600;
+	color:rgb(94, 218, 207);
 }
 .stilzo_tm_hero .short_info ul li span{
 	font-family: "Poppins";
@@ -789,6 +795,7 @@ body.opened .stilzo_tm_hero .content .left{
 	opacity: 0;
 	visibility: hidden;
 	top: 20px;
+	right: 50px;
 	
 	-webkit-transition: all .4s ease;
 	   -moz-transition: all .4s ease;
@@ -1555,7 +1562,7 @@ padding-bottom: 0;
 	position: relative;
 	background-color: #fff;
 	box-shadow: 0px 0px 20px rgba(0,0,0,.08);
-	border-radius: 10px;
+	border-radius: 0px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
@@ -1798,6 +1805,7 @@ padding-bottom: 0;
 .stilzo_tm_contact .left{
 	width: 50%;
 	padding-right: 100px;
+	border-right: 0.75px solid rgb(104, 104, 104);
 }
 .stilzo_tm_contact .left .text{
 	width: 100%;
@@ -1868,6 +1876,7 @@ padding-bottom: 0;
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.1);
 	background-color: transparent;
+	border-radius: 12px;
 }
 .stilzo_tm_contact .fields ul li input:focus{
 	outline: none;
@@ -1880,6 +1889,7 @@ padding-bottom: 0;
 	resize: none;
 	margin-bottom: 20px;
 	background-color: transparent;
+	border-radius: 12px;
 }
 .stilzo_tm_contact .fields .last textarea:focus{
 	outline: none;
@@ -1918,6 +1928,7 @@ padding-bottom: 0;
     padding: 8px 20px;
     position: relative;
 	background-color: #ff4522;
+	border-radius: 12px;
 	
 	-webkit-transition: all .3s ease;
 	   -moz-transition: all .3s ease;
